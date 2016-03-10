@@ -56,7 +56,7 @@ typedef struct {
     int32_t           tail;
     int32_t           head;
     volatile int32_t  fillCount;
-    NSTimeInterval    firstNonEmptyProduce;
+    double            firstNonEmptyProduce;
 } TPCircularBuffer;
 
 /*!
